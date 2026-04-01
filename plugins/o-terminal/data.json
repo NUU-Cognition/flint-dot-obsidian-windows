@@ -1,0 +1,13 @@
+{
+  "defaultShell": "",
+  "shellArgs": [],
+  "fontSize": 14,
+  "fontFamily": "'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace",
+  "cursorBlink": true,
+  "scrollback": 1000,
+  "githubRepo": "quorafind/obsidian-terminal",
+  "renderer": "xterm",
+  "themeMode": "system",
+  "darkThemePreset": "dracula",
+  "lightThemePreset": "github-light"
+}

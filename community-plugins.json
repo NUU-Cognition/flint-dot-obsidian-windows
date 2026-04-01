@@ -1,5 +1,4 @@
 [
-  "terminal",
   "calendar",
   "share-note",
   "obsidian-style-settings",
@@ -10,5 +9,7 @@
   "mermaid-popup",
   "obsidian-git",
   "templater-obsidian",
-  "copy-path"
+  "copy-path",
+  "obsidian42-brat",
+  "o-terminal"
 ]
