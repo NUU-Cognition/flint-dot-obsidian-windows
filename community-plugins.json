@@ -2,8 +2,6 @@
   "calendar",
   "share-note",
   "obsidian-style-settings",
-  "dataview",
-  "dataview-serializer",
   "tldraw",
   "open-as-md",
   "mermaid-popup",
@@ -11,5 +9,7 @@
   "templater-obsidian",
   "copy-path",
   "obsidian42-brat",
-  "o-terminal"
+  "o-terminal",
+  "at-people",
+  "dataview"
 ]
