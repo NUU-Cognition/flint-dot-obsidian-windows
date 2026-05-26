@@ -18487,7 +18487,7 @@ var TerminalPlugin = class extends import_obsidian6.Plugin {
       id: COMMAND_OPEN_TERMINAL,
       name: COMMAND_OPEN_TERMINAL_NAME,
       callback: () => {
-        this.openTerminal();
+        this.openTerminal(true); /* NUU-PATCH: open as new tab (matches mac terminal plugin newInstanceBehavior:newTab) */
       }
     });
     this.addCommand({

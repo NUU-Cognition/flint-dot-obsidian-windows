@@ -1,5 +1,5 @@
 {
-  "defaultShell": "",
+  "defaultShell": "pwsh.exe",
   "shellArgs": [],
   "fontSize": 14,
   "fontFamily": "'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace",
