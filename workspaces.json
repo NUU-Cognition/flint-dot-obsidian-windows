@@ -288,27 +288,39 @@
           {
             "id": "0df8f411e801d8b2",
             "type": "tabs",
-            "dimension": 48.68641699273337,
             "children": [
               {
-                "id": "41174f68a9cb6e5a",
+                "id": "e9fc6e04f1deeb51",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "Mesh/Homepage.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "Homepage"
                 }
               }
             ]
           },
           {
-            "id": "24be50b1c6111292",
+            "id": "e9c5a391f52e7162",
             "type": "tabs",
-            "dimension": 51.31358300726663,
             "children": [
               {
-                "id": "9e4e4eeb4536e308",
+                "id": "19738b196791c85a",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -331,16 +343,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "bb45803b132c10f6",
+                "id": "6eed2689af0ed3d0",
                 "type": "leaf",
                 "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "type": "vertical-tabs",
+                  "state": {},
+                  "icon": "vertical-tabs",
+                  "title": "Vertical tabs"
                 }
               },
               {
@@ -371,10 +380,29 @@
                 }
               }
             ]
+          },
+          {
+            "id": "ae27db6ca4228b54",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bb45803b132c10f6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 289.5041847229004
+        "width": 368.5
       },
       "right": {
         "id": "8487047dea7c2350",
@@ -384,6 +412,16 @@
             "id": "db0e5abab4a92433",
             "type": "tabs",
             "children": [
+              {
+                "id": "13eae0f37783721d",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
               {
                 "id": "f43a0e90c719a456",
                 "type": "leaf",
@@ -458,19 +496,8 @@
                   "icon": "lucide-list",
                   "title": "Outline"
                 }
-              },
-              {
-                "id": "13eae0f37783721d",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "horizontal",
@@ -479,13 +506,13 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
-          "bases:Create new base": false,
           "terminal:Open terminal": false,
           "tldraw:Create new tldrawing": false,
           "obsidian-git:Open Git source control": false,
@@ -493,8 +520,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "41174f68a9cb6e5a",
-      "mtime": "2026-03-12T04:12:57+11:00"
+      "active": "19738b196791c85a",
+      "mtime": "2026-05-19T12:38:26+10:00"
     }
   },
   "active": "Split"

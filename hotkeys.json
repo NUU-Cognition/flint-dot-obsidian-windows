@@ -17,15 +17,6 @@
       "key": "ArrowDown"
     }
   ],
-  "terminal:open-terminal.integrated.root": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "T"
-    }
-  ],
   "editor:insert-link": [],
   "editor:toggle-bullet-list": [
     {
@@ -140,6 +131,15 @@
         "Shift"
       ],
       "key": "."
+    }
+  ],
+  "file-explorer:new-file": [],
+  "nuu-flint:launch-orbh-interactive-default": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }
