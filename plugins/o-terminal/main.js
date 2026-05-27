@@ -16953,7 +16953,10 @@ var TerminalView2 = class extends TerminalView {
         title = parts[parts.length - 1];
       }
     }
-    return title; /* NUU-PATCH: skip 20-char truncation and shell-name suffix so orbh OSC titles reach the dashboard parser intact (trailing Braille glyph drives working/todo status) */
+    /* NUU-PATCH: skip 20-char truncation and shell-name suffix so orbh OSC titles reach the dashboard parser intact (trailing Braille glyph drives working/todo status). For bare (non-orbh) shells, return "Terminal" — mirrors the ~/.zshrc precmd hook on mac, which resets the title to "Terminal" when ORBH_SESSION_ID is unset. Heuristic: orbh wrapper always composes "<Runtime>: <body>" (or bare lowercase "<runtime>" after exit). Anything else is treated as a bare shell. */
+    const orbhRuntimes = "Claude|Codex|Gemini|Droid|Grok|OpenCode";
+    const looksLikeOrbh = new RegExp(`^(${orbhRuntimes}):\\s`).test(title) || new RegExp(`^(${orbhRuntimes})$`, "i").test(title);
+    return looksLikeOrbh ? title : TERMINAL_VIEW_DISPLAY_TEXT;
   }
   getIcon() {
     return "terminal";
