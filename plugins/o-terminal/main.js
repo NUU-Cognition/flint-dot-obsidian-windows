@@ -17581,6 +17581,9 @@ var TerminalView2 = class extends TerminalView {
     if (leaf.tabHeaderInnerTitleEl) {
       leaf.tabHeaderInnerTitleEl.setText(this.getDisplayText());
     }
+    /* NUU-PATCH: also force a workspace layout update so inactive tab titles refresh without needing focus (matches mac terminal plugin behavior) */
+    if (typeof leaf.updateHeader === "function") leaf.updateHeader();
+    this.app.workspace.requestUpdateLayout();
   }
   updateCSSVariables(theme) {
     if (!this.shadowHost)
