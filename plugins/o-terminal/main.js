@@ -16953,13 +16953,7 @@ var TerminalView2 = class extends TerminalView {
         title = parts[parts.length - 1];
       }
     }
-    const shell = this.shellName && !this.shellName.includes("xterm") ? `-${this.shellName}` : "";
-    const MAX_TITLE_LEN = 20;
-    let displayTitle = title;
-    if (displayTitle.length > MAX_TITLE_LEN) {
-      displayTitle = displayTitle.substring(0, MAX_TITLE_LEN) + "...";
-    }
-    return shell ? `${displayTitle}${shell}` : displayTitle;
+    return title; /* NUU-PATCH: skip 20-char truncation and shell-name suffix so orbh OSC titles reach the dashboard parser intact (trailing Braille glyph drives working/todo status) */
   }
   getIcon() {
     return "terminal";
