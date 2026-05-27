@@ -20,7 +20,7 @@
           "period": "Both"
         },
         {
-          "id": "terminal:open-terminal.default",
+          "id": "o-terminal:open-terminal",
           "period": "Both"
         }
       ],
