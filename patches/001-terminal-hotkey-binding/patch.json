@@ -1,0 +1,37 @@
+{
+  "id": "001-terminal-hotkey-binding",
+  "title": "Terminal hotkey binding (O Terminal)",
+  "why": "Keeps the Windows O Terminal command shortcuts bound to Alt+Mod+T/W/F. These are intentional local shortcuts and should be reapplied after a template reset or plugin update.",
+  "target": "hotkeys.json",
+  "type": "json-set",
+  "platforms": ["win32"],
+  "changes": [
+    {
+      "path": ["o-terminal:open-terminal"],
+      "value": [
+        {
+          "modifiers": ["Alt", "Mod"],
+          "key": "T"
+        }
+      ]
+    },
+    {
+      "path": ["o-terminal:close-terminal"],
+      "value": [
+        {
+          "modifiers": ["Alt", "Mod"],
+          "key": "W"
+        }
+      ]
+    },
+    {
+      "path": ["o-terminal:focus-terminal"],
+      "value": [
+        {
+          "modifiers": ["Alt", "Mod"],
+          "key": "F"
+        }
+      ]
+    }
+  ]
+}
