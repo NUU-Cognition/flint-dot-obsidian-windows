@@ -1,0 +1,11 @@
+﻿{
+    "version":  "0.4.1-nuu-conpty",
+    "conpty":  {
+                   "useConptyDll":  true,
+                   "build":  "1.23.251008001"
+               },
+    "arch":  "x64",
+    "electronVersion":  "39.8.3",
+    "platform":  "win32",
+    "nodeABI":  140
+}

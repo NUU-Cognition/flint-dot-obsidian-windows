@@ -1,0 +1,13 @@
+{
+	"id": "n-terminal",
+	"name": "N Terminal",
+	"version": "0.4.1",
+	"minAppVersion": "1.11.0",
+	"description": "Integrated terminal for Obsidian (xterm.js + node-pty) with the patched ConPTY bundled. Fork of O Terminal by Boninall.",
+	"author": "NUU Cognition (fork of O Terminal by Boninall)",
+	"authorUrl": "https://github.com/quorafind/obsidian-terminal",
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://www.buymeacoffee.com/boninall"
+	},
+	"isDesktopOnly": true
+}
