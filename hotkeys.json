@@ -1,145 +1,155 @@
-{
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "editor:insert-link": [],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
-  "file-explorer:new-file-in-new-pane": [],
-  "insert-current-date": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
-  "insert-current-time": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
-  "obsidian-git:push": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "G"
-    }
-  ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "/"
-    }
-  ],
-  "editor:toggle-comments": [],
-  "workspace:close": [],
-  "o-terminal:open-terminal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "o-terminal:close-terminal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
-  "o-terminal:focus-terminal": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "["
-    }
-  ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "]"
-    }
-  ],
-  "tab-selector:open-tab-selector": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "1"
-    }
-  ],
-  "vertical-tabs:open-vertical-tabs": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "/"
-    }
-  ],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "."
-    }
-  ],
-  "file-explorer:new-file": [],
-  "nuu-flint:launch-orbh-interactive-default": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ]
+﻿{
+    "editor:swap-line-up":  [
+                                {
+                                    "modifiers":  [
+                                                      "Alt",
+                                                      "Ctrl"
+                                                  ],
+                                    "key":  "ArrowUp"
+                                }
+                            ],
+    "editor:swap-line-down":  [
+                                  {
+                                      "modifiers":  [
+                                                        "Alt",
+                                                        "Ctrl"
+                                                    ],
+                                      "key":  "ArrowDown"
+                                  }
+                              ],
+    "editor:insert-link":  [
+
+                           ],
+    "editor:toggle-bullet-list":  [
+                                      {
+                                          "modifiers":  [
+                                                            "Mod"
+                                                        ],
+                                          "key":  "K"
+                                      }
+                                  ],
+    "file-explorer:new-file-in-new-pane":  [
+
+                                           ],
+    "insert-current-date":  [
+                                {
+                                    "modifiers":  [
+                                                      "Mod",
+                                                      "Shift"
+                                                  ],
+                                    "key":  "M"
+                                }
+                            ],
+    "insert-current-time":  [
+                                {
+                                    "modifiers":  [
+                                                      "Mod",
+                                                      "Shift"
+                                                  ],
+                                    "key":  "N"
+                                }
+                            ],
+    "obsidian-git:push":  [
+                              {
+                                  "modifiers":  [
+                                                    "Mod",
+                                                    "Shift"
+                                                ],
+                                  "key":  "G"
+                              }
+                          ],
+    "templater-obsidian:insert-templater":  [
+                                                {
+                                                    "modifiers":  [
+                                                                      "Mod"
+                                                                  ],
+                                                    "key":  "/"
+                                                }
+                                            ],
+    "editor:toggle-comments":  [
+
+                               ],
+    "workspace:close":  [
+
+                        ],
+    "app:toggle-left-sidebar":  [
+                                    {
+                                        "modifiers":  [
+                                                          "Mod"
+                                                      ],
+                                        "key":  "["
+                                    }
+                                ],
+    "app:toggle-right-sidebar":  [
+                                     {
+                                         "modifiers":  [
+                                                           "Mod"
+                                                       ],
+                                         "key":  "]"
+                                     }
+                                 ],
+    "tab-selector:open-tab-selector":  [
+                                           {
+                                               "modifiers":  [
+                                                                 "Ctrl"
+                                                             ],
+                                               "key":  "1"
+                                           }
+                                       ],
+    "vertical-tabs:open-vertical-tabs":  [
+                                             {
+                                                 "modifiers":  [
+                                                                   "Mod",
+                                                                   "Shift"
+                                                               ],
+                                                 "key":  "/"
+                                             }
+                                         ],
+    "file-explorer:open":  [
+                               {
+                                   "modifiers":  [
+                                                     "Mod",
+                                                     "Shift"
+                                                 ],
+                                   "key":  "."
+                               }
+                           ],
+    "file-explorer:new-file":  [
+
+                               ],
+    "nuu-flint:launch-orbh-interactive-default":  [
+                                                      {
+                                                          "modifiers":  [
+                                                                            "Mod"
+                                                                        ],
+                                                          "key":  "N"
+                                                      }
+                                                  ],
+    "n-terminal:open-terminal":  [
+                                     {
+                                         "modifiers":  [
+                                                           "Alt",
+                                                           "Mod"
+                                                       ],
+                                         "key":  "T"
+                                     }
+                                 ],
+    "n-terminal:close-terminal":  [
+                                      {
+                                          "modifiers":  [
+                                                            "Alt",
+                                                            "Mod"
+                                                        ],
+                                          "key":  "W"
+                                      }
+                                  ],
+    "n-terminal:focus-terminal":  [
+                                      {
+                                          "modifiers":  [
+                                                            "Alt",
+                                                            "Mod"
+                                                        ],
+                                          "key":  "F"
+                                      }
+                                  ]
 }
