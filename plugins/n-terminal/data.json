@@ -2,7 +2,7 @@
   "defaultShell": "powershell.exe",
   "shellArgs": [],
   "fontSize": 14,
-  "fontFamily": "'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace",
+  "fontFamily": "'JetBrainsMono NF', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace",
   "cursorBlink": true,
   "scrollback": 1000,
   "githubRepo": "quorafind/obsidian-terminal",
